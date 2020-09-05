@@ -56,6 +56,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
                 i.putExtra("original_title", movies.original_title);
                 i.putExtra("vote_average",movies.vote_average);
                 i.putExtra("overview",movies.overview);
+                i.putExtra("original_language", movies.original_language);
                 i.putExtra("release_date",movies.release_date);
                 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(i);
